@@ -26,3 +26,6 @@ do
 array[$i]=${results[$i]}
 done
 echo Array is : ${array[@]}
+
+sorted=($(printf '%s\n' "${array[@]}" | sort -nr ))
+echo "Descending Sorted : ${sorted[@]}"
