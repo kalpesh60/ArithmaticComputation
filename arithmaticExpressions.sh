@@ -20,3 +20,9 @@ results[3]=$sol2
 results[4]=$sol3
 
 echo ${results[@]}
+
+for ((i=1; i<=4; i++))
+do
+array[$i]=${results[$i]}
+done
+echo Array is : ${array[@]}
