@@ -12,3 +12,11 @@ echo "compute c+a/b"
 sol2=$(($c+$a/$b))
 echo "compute a%b+c"
 sol3=$(($a%$b+$c))
+
+declare -a results
+results[1]=$sol
+results[2]=$sol1
+results[3]=$sol2
+results[4]=$sol3
+
+echo ${results[@]}
