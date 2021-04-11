@@ -10,3 +10,5 @@ echo "compute a*b+c"
 sol1=$(($a*$b+$c))
 echo "compute c+a/b"
 sol2=$(($c+$a/$b))
+echo "compute a%b+c"
+sol3=$(($a%$b+$c))
