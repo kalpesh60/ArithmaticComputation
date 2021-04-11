@@ -6,3 +6,5 @@ b=25
 c=30
 echo "compute a+b*c"
 sol=$(($a+$b*$c))
+echo "compute a*b+c"
+sol1=$(($a*$b+$c))
