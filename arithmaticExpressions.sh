@@ -29,3 +29,6 @@ echo Array is : ${array[@]}
 
 sorted=($(printf '%s\n' "${array[@]}" | sort -nr ))
 echo "Descending Sorted : ${sorted[@]}"
+
+sorted=($(printf '%s\n' "${array[@]}" | sort -n ))
+echo "Ascending Sorted : ${sorted[@]}"
